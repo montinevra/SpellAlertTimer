@@ -1,0 +1,8 @@
+## Interface: 60100
+## Title: SpellAlert Timer
+## Author: Montinevra#1437
+## Version: 6.1-0.2
+## Notes: Duration bars for your spell alerts
+
+SpellAlertTimer.xml
+SpellAlertTimer.lua

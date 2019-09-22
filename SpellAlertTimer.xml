@@ -1,0 +1,50 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+	<StatusBar name="LeftTimerFrame" parent="SpellActivationOverlayFrame" orientation="VERTICAL" rotatesTexture="true" hidden="true">
+		<BarTexture file="Interface\TARGETINGFRAME\UI-StatusBar" />
+		<Anchors>
+			<Anchor point="RIGHT" relativePoint="LEFT" />
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="LeftGcdWarning" file="Interface\TARGETINGFRAME\UI-StatusBar" rotation="100">
+					<Color r=".9" g="0" b="0" />
+					<Anchors>
+						<Anchor point="BOTTOM" />
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</StatusBar>
+	<StatusBar name="RightTimerFrame" parent="SpellActivationOverlayFrame" orientation="VERTICAL" rotatesTexture="true" hidden="true">
+		<BarTexture file="Interface\TARGETINGFRAME\UI-StatusBar" />
+		<Anchors>
+			<Anchor point="LEFT" relativePoint="RIGHT" />
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="RightGcdWarning" file="Interface\TARGETINGFRAME\UI-StatusBar">
+					<Color r=".9" g="0" b="0" />
+					<Anchors>
+						<Anchor point="BOTTOM" />
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</StatusBar>
+	<StatusBar name="TopTimerFrame" parent="SpellActivationOverlayFrame" hidden="true">
+		<BarTexture file="Interface\TARGETINGFRAME\UI-StatusBar" />
+		<Anchors>
+			<Anchor point="BOTTOM" relativePoint="TOP" />
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="TopGcdWarning" file="Interface\TARGETINGFRAME\UI-StatusBar">
+					<Color r=".9" g="0" b="0" />
+					<Anchors>
+						<Anchor point="LEFT" />
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</StatusBar>
+</Ui>
